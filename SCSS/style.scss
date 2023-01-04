@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Unbounded:wght@200;300;400;500;600;900&display=swap');
+$f1:'Bangers', cursive;
+$f2: 'Carter One', cursive;
+.banner{
+    background-image:url(https://sangalotech.com/html/15/assets/images/hero-banner.jpg);
+    background-size:cover;
+    height:100vh;
+}
+ .bg-body-tertiary{
+background:transparent !important;
+}
+.navbar-brand{
+    font-family:$f1;
+    font-size:36px;
+}
+.text-hero{
+    padding:5% 10%;
+    h3{
+        font-size:83px;
+        font-family:$f1;
+    }
+    h1{
+        font-size:155px;
+        font-family:$f1;
+    }
+    p{
+        font-size:24px;
+        padding-left:40px;
+    }
+    a{
+        margin-left:60px;
+    }
+}
+.cat{
+    h2{ font-size:30px;
+        text-align:center;
+        span{
+            color:orange;
+        }
+    }
+    .col-lg-3{
+        width:19%;
+        img{ 
+            width:100%;
+        }
+        a{
+            text-decoration:none;
+            color:black;
+            padding-left:50px;
+            font-size:20px;
+            &:hover{
+                color:orange;
+            }
+        }
+    }
+}
+ .navbar-expand-lg .navbar-nav .nav-link{
+    font-size:17px;
+    padding:20px;
+    color:white;
+    font-weight:700;
+}
+.obox {
+    img{
+        width:100%;
+    }
+}
+.seller{
+    h2{
+        span{
+            color:orange;
+        }
+    }
+}
+span{
+    color:orange;
+}
+.what{
+    .col-lg-3{
+        i{
+            font-size:100px;
+            color:rgb(235, 142, 142);
+        }
+    }
+}
+.banner3{
+    background:url(https://sangalotech.com/html/15/assets/images/cta-bg.jpg);
+    height:70vh;
+    background-size:cover;
+    .col-lg-6{
+        img{
+            width:100%;
+            overflow:hidden;
+            height:415px;
+        }
+    }
+    .col-lg-6{
+        .ping{
+            a:hover{
+                color:black;
+                background:white;
+            }
+            img{
+                width:300px;
+                height:90px;
+                margin-top:150px;
+            }
+        }
+    }
+}
+.popular{
+
+    .col-lg-3{
+        width:20%;
+        img{
+           width:100%;
+        }
+    }
+}
+.fotter{
+    background:url(	https://sangalotech.com/html/15/assets/images/footer-bg.jpg);
+    height:60vh;
+    background-size:cover;
+}
+.footer{
+    .fotter1{
+        a:hover{
+            color:red;
+            background:green;
+            border-radius:50%;
+        }
+    }
+ 
+}
+.fotter2{
+    ul{
+       li{
+        list-style:none;
+        a{
+            text-decoration:none;
+            color:gray;
+            padding:10px 0px;
+        }
+       } 
+         
+    }
+}
